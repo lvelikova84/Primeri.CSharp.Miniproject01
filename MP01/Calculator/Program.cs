@@ -13,7 +13,7 @@ namespace Calculator
 
 			MainClass _program = new MainClass ();		//предефинираме нашата програма
 
-			_program.uInput.justTesting ();				//достъпваме нашата библиотека
+			_program.uInput.getUsrecommands ();				//достъпваме нашата библиотека
 		}
 	}
 }
