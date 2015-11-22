@@ -1,1 +1,13 @@
-﻿<Properties StartupItem="Calculator\Calculator.csproj" />
+﻿<Properties StartupItem="Calculator\Calculator.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserInput\UserInput.cs">
+    <Files>
+      <File FileName="UserInput\UserInput.cs" Line="29" Column="4" />
+      <File FileName="Calculator\Program.cs" Line="11" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

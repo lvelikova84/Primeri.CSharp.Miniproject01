@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInput", "UserInput\UserInput.csproj", "{7DC0F2B0-350C-4190-B4BC-1562302E0039}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "About", "About\About.csproj", "{F4DAA06A-7241-4EA9-B94C-BAE093292CDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{7DC0F2B0-350C-4190-B4BC-1562302E0039}.Debug|x86.Build.0 = Debug|Any CPU
 		{7DC0F2B0-350C-4190-B4BC-1562302E0039}.Release|x86.ActiveCfg = Release|Any CPU
 		{7DC0F2B0-350C-4190-B4BC-1562302E0039}.Release|x86.Build.0 = Release|Any CPU
+		{F4DAA06A-7241-4EA9-B94C-BAE093292CDA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4DAA06A-7241-4EA9-B94C-BAE093292CDA}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4DAA06A-7241-4EA9-B94C-BAE093292CDA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4DAA06A-7241-4EA9-B94C-BAE093292CDA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

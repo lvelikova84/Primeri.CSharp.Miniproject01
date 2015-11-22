@@ -2,3 +2,6 @@ C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Calculator.exe
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Calculator.pdb
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\obj\x86\Release\Calculator.exe
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\obj\x86\Release\Calculator.pdb
+C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\UserInput.dll
+C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\UserInput.pdb
+C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\obj\x86\Release\Calculator.csprojResolveAssemblyReference.cache
