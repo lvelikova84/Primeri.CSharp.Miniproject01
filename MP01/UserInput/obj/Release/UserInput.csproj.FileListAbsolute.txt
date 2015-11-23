@@ -7,3 +7,5 @@ C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Colors.dll
 C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\About.pdb
 C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Colors.pdb
 C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\obj\Release\UserInput.csprojResolveAssemblyReference.cache
+C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Calculations.dll
+C:\aula2\primeri.csharp.miniproject01\MP01\UserInput\bin\Release\Calculations.pdb

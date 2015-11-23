@@ -10,3 +10,4 @@ C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Colors.dll
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\About.pdb
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Colors.pdb
 C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Calculations.dll
+C:\aula2\primeri.csharp.miniproject01\MP01\Calculator\bin\Release\Calculations.pdb
