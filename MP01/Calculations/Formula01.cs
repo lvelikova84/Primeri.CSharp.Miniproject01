@@ -17,6 +17,7 @@ namespace Calculations
 
 		/// <summary>
 		/// Метод за пресмятане на Формула01</summary>
+		/// <param name="_userInput"> Това е цялата команда с параметри, въведена от потрбителя </param> 
 		public void calc (string _userInput)
 		{
 			try {
@@ -41,10 +42,12 @@ namespace Calculations
 			} catch {
 			}
 		}
-
+	
 
 		/// <summary>
 		/// Вътрешен метод за пресмятане на формула 01, слд парсване на командата от потребителя. </summary>
+		/// <param name="_param"> Това е масив от стрингове, който съдържа командата с параметрите от потрбителя </param> 
+		/// <param name="_result"> В тази променлива ще бъде върнат резултата от формулата </param> 
 		private bool runCalculations (string[] _param, out double _result)
 		{
 			try {
