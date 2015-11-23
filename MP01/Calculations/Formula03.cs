@@ -2,6 +2,9 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Клас за формула за изпъкнал ъгъл. (Формула 3) </summary>
+
 	public class Formula03
 	{
 		private Colors.ForCLI _cl = new Colors.ForCLI ();

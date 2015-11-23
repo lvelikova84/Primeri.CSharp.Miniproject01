@@ -2,15 +2,21 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Клас за формула за обикновена строителна яма.(Формула 01) </summary>
 	public class Formula01
 	{
 		//Библиотеки
 		private Colors.ForCLI _c = new Colors.ForCLI ();
+
+		/// <summary>
+		/// Конструктор на Формула 01</summary>
 		public Formula01 ()	//формула за обикновена строителна яма
 		{
 		}
 
-		//Парсване
+		/// <summary>
+		/// Метод за пресмятане на Формула01</summary>
 		public void calc (string _userInput)
 		{
 			try {
@@ -35,9 +41,10 @@ namespace Calculations
 			} catch {
 			}
 		}
-		
 
-		//Изчисление и изписване
+
+		/// <summary>
+		/// Вътрешен метод за пресмятане на формула 01, слд парсване на командата от потребителя. </summary>
 		private bool runCalculations (string[] _param, out double _result)
 		{
 			try {
@@ -59,7 +66,8 @@ namespace Calculations
 			return false;
 		}
 
-		//помощ за командата
+		/// <summary>
+		/// Вътрешен метод показващ синтаксиса на командата в командния ред </summary>
 		private void help ()
 		{
 			_c.Result ();

@@ -2,6 +2,8 @@
 
 namespace Calculations
 {
+	/// <summary>
+	/// Клас за формула за вдлъбнат ъгъл. (Формула 2) </summary>
 	public class Formula02
 	{
 		Colors.ForCLI _cl = new Colors.ForCLI ();
