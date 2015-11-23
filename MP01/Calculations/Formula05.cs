@@ -2,11 +2,18 @@
 
 namespace Calculations
 {
-	public class Formula03
+//	Формула за: Канален изкоп
+//	Формула: (а + b ) / 2 * h * L
+//	където:
+//	а и b - горна и долна ширина на профиля
+//	h - височина
+//	L - дължина
+
+	public class Formula05
 	{
 		private Colors.ForCLI _cl = new Colors.ForCLI ();
 
-		public Formula03 ()
+		public Formula05 ()
 		{
 		}
 
@@ -20,13 +27,13 @@ namespace Calculations
 					help ();
 				}
 
-				if ( param.Length == 4 )
+				if ( param.Length == 5)
 				{
 					double result = 0;
 
 					if (runCalculate (param, out result))
 					{
-						_cl.Default ();		Console.Write ("Обемът на изпъкналия ъгъл е: ");
+						_cl.Default ();		Console.Write ("Обемът на каналния ъгъл е: ");
 						_cl.Result (); 		Console.Write (result.ToString ("N2"));
 						_cl.Default ();		Console.WriteLine ( " m3\n" );
 
@@ -48,8 +55,9 @@ namespace Calculations
 				double a = 0; Double.TryParse (_param[1], out a);
 				double b = 0; Double.TryParse (_param[2], out b);
 				double h = 0; Double.TryParse (_param[3], out h);
+				double L = 0; Double.TryParse (_param[4], out L);
 
-				_result = 2 * a * b * h / 3;
+				_result = ( a + b ) / 2 * h * L;
 
 				return true;
 			}catch{
@@ -62,18 +70,20 @@ namespace Calculations
 
 		private void help ()
 		{
-			_cl.Result (); 		Console.Write ("[иъгъл]");
-			_cl.Default ();		Console.WriteLine (" - изпъкнал ъгъл");
+			_cl.Result (); 		Console.Write ("[къгъл]");
+			_cl.Default ();		Console.WriteLine (" - канален ъгъл");
 
 			_cl.Command ();		Console.Write ("параметри");
-			_cl.Default ();		Console.WriteLine (" a, b и h");
+			_cl.Default ();		Console.WriteLine (" a, b, h и L");
 
 			_cl.Command ();		Console.Write ("a и b");
-			_cl.Default ();		Console.WriteLine (" - ширина и дължина");
+			_cl.Default ();		Console.WriteLine (" - горна и долна ширина на профила");
 
 			_cl.Command ();		Console.Write ("h");
-			_cl.Default ();		Console.WriteLine (" - височина\n");
+			_cl.Default ();		Console.WriteLine (" - височина");
 
+			_cl.Command ();		Console.Write ("L");
+			_cl.Default ();		Console.WriteLine (" - дължина\n");
 		}
 	}
 }

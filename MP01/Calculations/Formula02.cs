@@ -27,9 +27,9 @@ namespace Calculations
 
 					if (runCalculate (param, out result))
 					{
-						_cl.Default ();		Console.Write ("Обемът на вдлъбнатия ъгъл е:");
+						_cl.Default ();		Console.Write ("Обемът на вдлъбнатия ъгъл е: ");
 						_cl.Result (); 		Console.Write (result.ToString ("N2"));
-						_cl.Default ();		Console.WriteLine ( "m3\n" );
+						_cl.Default ();		Console.WriteLine ( " m3\n" );
 						
 					}
 				}else {
